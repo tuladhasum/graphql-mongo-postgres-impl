@@ -1,4 +1,5 @@
 require('dotenv').config();
+console.log(process.env.PG_HOST);
 
 const { ApolloServer, gql } = require("apollo-server");
 const mongoose = require("mongoose");
